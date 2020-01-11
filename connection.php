@@ -1,9 +1,9 @@
 <?php
     
     $dbhost = "localhost";
-    $dbunm = "id12161614_iotworkshop";
-    $dbpass = "iotworkshop";
-    $dbname = "id12161614_iotworkshop";
+    $dbunm = "*******"; //your user name
+    $dbpass = "*******";//your db password
+    $dbname = "******"; //your db name
     $conn = new mysqli();
     $conn = mysqli_connect($dbhost,$dbunm,$dbpass,$dbname);
 
